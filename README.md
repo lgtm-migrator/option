@@ -15,9 +15,9 @@ if (someObj.isNone) {
 }
 
 const noneObj = Option.none();
-if (errorObj.isNone) {
+if (noneObj.isNone) {
     console.log('none') // output: none
 } else {
-    console.log(someObj.value); // This cannot happen because someObj is None
+    console.log(noneObj.value); // This cannot happen because noneObj is None
 }
 ```
