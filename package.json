@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
@@ -36,7 +36,8 @@
     "name": "@kizahasi/option",
     "author": "kizahasi",
     "module": "dist/option.esm.js",
-    "size-limit": [{
+    "size-limit": [
+        {
             "path": "dist/option.cjs.production.min.js",
             "limit": "10 KB"
         },
