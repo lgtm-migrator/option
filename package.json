@@ -35,6 +35,10 @@
     },
     "name": "@kizahasi/option",
     "author": "kizahasi",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kizahasi/option"
+    },
     "module": "dist/option.esm.js",
     "size-limit": [
         {
