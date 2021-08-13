@@ -1,12 +1,17 @@
 module.exports = {
-    "extends": [
-        "react-app",
-        "prettier/@typescript-eslint",
-        "plugin:prettier/recommended"
+    root: true,
+    parser: '@typescript-eslint/parser',
+    plugins: ['@typescript-eslint'],
+    extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+        'prettier',
     ],
-    "settings": {
-        "react": {
-            "version": "999.999.999"
-        }
-    }
-}
+    rules: {
+        '@typescript-eslint/member-delimiter-style': ['error'],
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
+        '@typescript-eslint/no-namespace': 'off',
+        'space-before-blocks': 'warn',
+    },
+};
