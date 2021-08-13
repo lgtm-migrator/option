@@ -5,6 +5,7 @@ export type Some<TValue> = {
 
 export type None = {
     isNone: true;
+    value?: undefined;
 };
 
 export type Option<T> = Some<T> | None;
