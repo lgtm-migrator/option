@@ -33,16 +33,16 @@
     },
     "description": "Represents a value which is either Some or None.",
     "devDependencies": {
-        "@types/jest": "27.0.1",
-        "@typescript-eslint/eslint-plugin": "4.30.0",
-        "@typescript-eslint/parser": "4.30.0",
+        "@types/jest": "27.0.2",
+        "@typescript-eslint/eslint-plugin": "4.31.2",
+        "@typescript-eslint/parser": "4.31.2",
         "eslint": "7.32.0",
         "eslint-config-prettier": "8.3.0",
         "husky": "7.0.2",
-        "jest": "27.1.0",
-        "prettier": "2.3.2",
+        "jest": "27.2.1",
+        "prettier": "2.4.1",
         "rimraf": "3.0.2",
         "ts-jest": "27.0.5",
-        "typescript": "4.4.2"
+        "typescript": "4.4.3"
     }
 }
